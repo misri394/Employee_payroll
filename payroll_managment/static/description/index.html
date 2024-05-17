@@ -8,27 +8,52 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
         }
-        h1 {
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
             color: #333;
         }
         p {
             color: #666;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .features {
-            margin-top: 20px;
-        }
-        .feature-item {
-            margin-bottom: 10px;
-        }
         .app-image {
             max-width: 100%;
             height: auto;
             margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .features {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .feature-item {
+            margin-bottom: 10px;
+            list-style-type: square;
+            color: #444;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .contact-info li {
+            margin-bottom: 5px;
+        }
+        .contact-info li a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info li a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -60,8 +85,7 @@
         <p>Start managing your payroll with Odoo today! Visit the Odoo Apps Store to download the Payroll Management Odoo App.</p>
 
         <h2>Contact Us:</h2>
-        <p>If you have any questions or need assistance, feel free to contact:</p>
-        <ul>
+        <ul class="contact-info">
             <li>Gultaj Khan</li>
             <li>Email: <a href="mailto:taj25406@gmail.com">taj25406@gmail.com</a></li>
         </ul>
